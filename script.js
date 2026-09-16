@@ -1,11 +1,5 @@
 (function () {
   "use strict";
-
-  /* ---------------------------------------------------------------------
-   * Dados de exemplo. Sem backend: tudo roda no navegador. Os cartões não
-   * abrem uma vaga específica nem levam para login/candidatura — por
-   * enquanto esta tela é só busca e filtro, como pedido.
-   * ------------------------------------------------------------------- */
   var JOBS = [
     { id: "1", title: "Desenvolvedor(a) Front-end Pleno", org: "Nortec Soluções", workMode: "REMOTE", employmentType: "FULL_TIME", city: null, region: null, compensation: 650000, openedAt: "2026-09-08", occupation: { code: "TI", title: "Tecnologia da Informação" } },
     { id: "2", title: "Analista de Recursos Humanos", org: "Grupo Vale Verde", workMode: "ONSITE", employmentType: "FULL_TIME", city: "Nova Lima", region: "MG", compensation: 380000, openedAt: "2026-09-05", occupation: { code: "RH", title: "Recursos Humanos" } },
