@@ -129,12 +129,9 @@ button:focus-visible,
   height: 34px;
   color: var(--purple);
 }
-.brand > span {
-  font-size: 46px;
-  line-height: 1;
-  font-weight: 800;
-  letter-spacing: -3px;
-  padding-bottom: 8px;
+.brand > img.brand-word {
+  width: auto;
+  height: 34px;
 }
 .brand-description {
   padding-left: 20px;
@@ -740,8 +737,8 @@ button:focus-visible,
     width: 27px;
     height: 27px;
   }
-  .brand > span {
-    font-size: 38px;
+  .brand > img.brand-word {
+    height: 27px;
   }
   .navigation > a:not(.button) {
     display: none;
